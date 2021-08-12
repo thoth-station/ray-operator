@@ -18,10 +18,8 @@ managers:
   - name: version
     configuration:
       maintainers:
-        - fridex
-        - goern
+        - erikerlandson
         - harshad16
-        - pacospace
       assignees:
         - sesheta
       labels: [bot]
