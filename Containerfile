@@ -45,6 +45,7 @@ RUN echo \
 
 # install ray deps
 COPY Pipfile ${HOME}
+COPY Pipfile.lock ${HOME}
 RUN echo \
  && pipenv install \
  && rm -rf /tmp/* /root/.cache /root/.local \
