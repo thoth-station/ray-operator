@@ -1,5 +1,8 @@
 # Changelog for Thoth's Template GitHub Project
 
+## Release 0.1.1 (2022-01-04T18:15:23)
+* update the package dependencies and readme
+
 ## Release 0.1.0 (2021-08-17T21:58:56)
 ### Features
 * version script for kebechet
