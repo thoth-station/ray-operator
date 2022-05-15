@@ -9,16 +9,17 @@ python_version = "3.8"
 [packages]
 # keep this in sync with pipenv in the Containerfile
 pipenv = "==2020.11.15"
-
 # open question: can we work with 'ray = "*"' here?
-ray = { version = ">=1.4,<1.5", extras = [ "default" ] }
-
+ray = { version = "*", extras = [ "default" ] }
 # general ray deps
 cython = "*"
 flatbuffers = "*"
-
 # ray operator deps
 kubernetes = "*"
 boto3 = "*"
+kopf = "*"
 
 [dev-packages]
+
+[pipenv]
+allow_prereleases = true
