@@ -49,8 +49,9 @@ COPY Pipfile.lock ${HOME}
 RUN echo \
  && pipenv install \
  && rm -rf /tmp/* /root/.cache /root/.local \
- && touch ${HOME}/.bashrc \
  && chmod a+rwX -R ${HOME} \
+ && touch /home/.bashrc \
+ && chmod a+rwX -R /home \
  && echo
 
 # in the above, ray has been installed as a pipenv environment - if you want to run
