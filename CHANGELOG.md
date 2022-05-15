@@ -1,5 +1,10 @@
 # Changelog for Thoth's Template GitHub Project
 
+## Release 0.1.2 (2022-05-15T18:45:02)
+* e23bf82 :fire: Patch the bashrc in home dir instead of home/ray (#14)
+* 4758aef :arrow_up: Automatic update of dependencies by Kebechet for the ubi8 environment
+* 7e36811 Updated the ray package with new features (#13)
+
 ## Release 0.1.1 (2022-01-04T18:15:23)
 * update the package dependencies and readme
 
